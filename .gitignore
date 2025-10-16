@@ -1,0 +1,23 @@
+# Ignorar entorno virtual
+tf_env/
+venv/
+env/
+__pycache__/
+
+# Archivos grandes o de datos
+dataset/
+archive/
+archive (1)/
+*.zip
+*.rar
+*.h5
+*.keras
+*.npy
+*.npz
+*.ckpt
+*.pb
+
+# Archivos de sistema y Jupyter
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
